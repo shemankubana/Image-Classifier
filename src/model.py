@@ -2,7 +2,7 @@ import os
 import tensorflow as tf
 from keras import layers, models
 from keras.callbacks import EarlyStopping, ModelCheckpoint
-from preprocessing import load_processed_data
+from .preprocessing import load_processed_data
 import pickle # New import for saving history
 
 # Define paths relative to the project root

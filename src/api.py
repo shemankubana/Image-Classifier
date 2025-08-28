@@ -20,8 +20,8 @@ PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 
 # Import from the src module directly
 from src.prediction import predict_image, load_inference_model, CLASS_NAMES
-from src.preprocessing import load_and_preprocess_cifar10, split_data
-from src.model import create_cifar10_cnn, train_model_with_callbacks
+from src.preprocessing import load_and_preprocess_data
+from src.model import build_model, train_model
 
 app = FastAPI(
     title="MLOps CIFAR-10 Image Classifier API",

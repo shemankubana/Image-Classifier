@@ -5,5 +5,5 @@
 
     # Starting the FastAPI server with Uvicorn, binding to the port provided by Render
     echo "Starting the FastAPI server with Uvicorn..."
-    uvicorn src.api:app --host 0.0.0.0 --port $PORT
+    uvicorn src.api:app --host 0.0.0.0 --port 8000
     
