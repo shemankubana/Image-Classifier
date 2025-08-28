@@ -1,0 +1,14 @@
+# A `render.yaml` file is the easiest way to deploy and manage your services on Render.
+# This file describes the single web service that runs your FastAPI application.
+
+services:
+  - type: web
+    name: cifar10-image-classifier
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "bash ./start.sh"
+    # Port must match the port specified in your start.sh script
+    # $PORT is an environment variable provided by Render
+    envVars:
+      - key: PORT
+        value: 8000

@@ -1,0 +1,25 @@
+# Python virtual environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Datasets - (IMPORTANT: Add your dataset folder here)
+data/
+images/
+dataset/
+
+# Saved Models
+*.h5
+*.pth
+*.pt
+*.onnx
+
+# OS-specific files
+.DS_Store
+
+# IDE specific files
+.vscode/
+.idea/

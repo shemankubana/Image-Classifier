@@ -1,0 +1,4 @@
+data/train/x_train.npy
+data/validation/x_val.npy
+venv/lib/python3.10/site-packages/tensorflow/libtensorflow_cc.2.dylib
+venv/lib/python3.10/site-packages/clang/native/libclang.dylib
