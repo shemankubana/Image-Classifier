@@ -12,7 +12,6 @@ images/
 dataset/
 
 # Saved Models
-*.h5
 *.pth
 *.pt
 *.onnx
